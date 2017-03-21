@@ -50,6 +50,7 @@ Hello World!
 
 Compilation & Compiler: তুমি নিশ্চই জানো যে Computer Binary Digit ছাড়া কিছুই বুঝে না? তাই আমাদের ইংরেজি বর্ণ দিয়ে লিখা C Programও Computer এর পক্ষে বুঝা সম্ভব না তাই আমাদের Program টিকে Compile করতে হয় অর্থাৎ আমাদের Code কে Binary তে রুপান্তর করতে হয়। এই Compile করার Process টিই হল Compilation। আর Compile করতে আমাদের প্রোয়োজন হয় Compiler। তবে এখন আমাদের Compile করা নিয়ে ভাবতে হয় না। Code::Blocks এ আমরা যখন Build & Run এ Click করলাম তখন Code::Blocks আমাদের জন্য Program টি Compile করে Run করে দিলো। Code::Blocks এর জন্য MinGW Compiler ব্যবহার করেছে।
 
+
 Console: তুমি যদি Gaming জগত এর সাথে পরিচিত হয়ে থাকো তাহলে Console বলতে তুমি নিশ্চই XBOX 360 বা PlayStation 3 Console এর কথাই ভাবছো? আসলে এই Console সেই Console না। C Programming Language GUI বা Graphical User Interface Based না। তাই আমাদের Program এর Output Console এ দেখতে হয়। আমরা যে কালো Window তে Hello World লেখাটা দেখলাম সেটিই হল Console।
 
 Statement: Program এ নির্দিষ্ট প্রতিটি কাজই হল Statement। C Program এ প্রতিটি Statement কে ; (Semicolon) দিয়ে শেষ করতে হয়। আমাদের Hello World! Program এ printf ও return 0 একটি Statement তাই এদের শেষে ; (Semicolon) আছে।
@@ -110,3 +111,12 @@ Run Time Error: Program Run হওয়ার পর যদি Crash করে অ
 
 7) http://www.ioinformatics.org/index.shtml
 8) http://icpc.baylor.edu/
+
+সমস্যা এবং সমাধানঃ
+
+কোড ব্লক একটা IDE. এটার সাথে আমাদের কম্পাইলার লাগে। যেটা আমাদের সি প্রোগ্রাম গুলোকে কম্পাইল করবে। যদি কম্পাইলার ইন্সটল না থাকে, তাহলে নিচের মত ইরর দেখাবে।
+
+"Environment Error Can’t fild compiler executable in your configurd search path for “GNU GCC” compiler"
+ 
+
+এ জন্য আমাদের Codeblocks with Mingw সহ ডাউনলোড করে ইন্সটল করতে হবে। ডাউনলোড পেইজে গিয়ে codeblocks-x.x.x mingw-setup.exe টা ডাউনলোড করে ইন্সটল করে নিলেই এ সমস্যার সমাধান হবে।
