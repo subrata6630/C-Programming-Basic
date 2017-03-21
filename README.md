@@ -47,26 +47,36 @@ Hello World!
 তুমি তোমার জীবনের প্রথম Program টি Run করে ফেললে। এখন Programming শিখার আগে তোমাকে কিছু Programming Terms এর সাথে পরিচিত হতে হবে। নিচে সংক্ষেপে আলোচনা করলামঃ
 
 
-# Compilation & Compiler: তুমি নিশ্চই জানো যে Computer Binary Digit ছাড়া কিছুই বুঝে না? তাই আমাদের ইংরেজি বর্ণ দিয়ে লিখা C Programও Computer এর পক্ষে বুঝা সম্ভব না তাই আমাদের Program টিকে Compile করতে হয় অর্থাৎ আমাদের Code কে Binary তে রুপান্তর করতে হয়। এই Compile করার Process টিই হল Compilation। আর Compile করতে আমাদের প্রোয়োজন হয় Compiler। তবে এখন আমাদের Compile করা নিয়ে ভাবতে হয় না। Code::Blocks এ আমরা যখন Build & Run এ Click করলাম তখন Code::Blocks আমাদের জন্য Program টি Compile করে Run করে দিলো। Code::Blocks এর জন্য MinGW Compiler ব্যবহার করেছে।
+# Compilation & Compiler: 
+তুমি নিশ্চই জানো যে Computer Binary Digit ছাড়া কিছুই বুঝে না? তাই আমাদের ইংরেজি বর্ণ দিয়ে লিখা C Programও Computer এর পক্ষে বুঝা সম্ভব না তাই আমাদের Program টিকে Compile করতে হয় অর্থাৎ আমাদের Code কে Binary তে রুপান্তর করতে হয়। এই Compile করার Process টিই হল Compilation। আর Compile করতে আমাদের প্রোয়োজন হয় Compiler। তবে এখন আমাদের Compile করা নিয়ে ভাবতে হয় না। Code::Blocks এ আমরা যখন Build & Run এ Click করলাম তখন Code::Blocks আমাদের জন্য Program টি Compile করে Run করে দিলো। Code::Blocks এর জন্য MinGW Compiler ব্যবহার করেছে।
 
 
-# Console: তুমি যদি Gaming জগত এর সাথে পরিচিত হয়ে থাকো তাহলে Console বলতে তুমি নিশ্চই XBOX 360 বা PlayStation 3 Console এর কথাই ভাবছো? আসলে এই Console সেই Console না। C Programming Language GUI বা Graphical User Interface Based না। তাই আমাদের Program এর Output Console এ দেখতে হয়। আমরা যে কালো Window তে Hello World লেখাটা দেখলাম সেটিই হল Console।
+# Console:
+তুমি যদি Gaming জগত এর সাথে পরিচিত হয়ে থাকো তাহলে Console বলতে তুমি নিশ্চই XBOX 360 বা PlayStation 3 Console এর কথাই ভাবছো? আসলে এই Console সেই Console না। C Programming Language GUI বা Graphical User Interface Based না। তাই আমাদের Program এর Output Console এ দেখতে হয়। আমরা যে কালো Window তে Hello World লেখাটা দেখলাম সেটিই হল Console।
 
-# Statement: Program এ নির্দিষ্ট প্রতিটি কাজই হল Statement। C Program এ প্রতিটি Statement কে ; (Semicolon) দিয়ে শেষ করতে হয়। আমাদের Hello World! Program এ printf ও return 0 একটি Statement তাই এদের শেষে ; (Semicolon) আছে।
+# Statement:
+Program এ নির্দিষ্ট প্রতিটি কাজই হল Statement। C Program এ প্রতিটি Statement কে ; (Semicolon) দিয়ে শেষ করতে হয়। আমাদের Hello World! Program এ printf ও return 0 একটি Statement তাই এদের শেষে ; (Semicolon) আছে।
 
-# Syntax: Syntax হচ্ছে কাঠামো। প্রোগ্রামিং এ আমাদের যেই কাঠামো বজায় রেখে প্রোগ্রাম করতে হয়, সেটিই হল আমাদের প্রোগ্রাম এর Syntax। প্রোগ্রামিং এ প্রত্যেকটি Statement এর আলাদা আলাদা Syntax আছে এবং আমাদের সেই সব Syntax Follow করতে হবে। যেমনঃ printf(“Hello World!”) কে আমারা printf(Hello World!); লিখতে পারবো না। কারণ printf এর ভিতর Double Quotation printf এর Syntex এর অংশ।
+# Syntax: 
+Syntax হচ্ছে কাঠামো। প্রোগ্রামিং এ আমাদের যেই কাঠামো বজায় রেখে প্রোগ্রাম করতে হয়, সেটিই হল আমাদের প্রোগ্রাম এর Syntax। প্রোগ্রামিং এ প্রত্যেকটি Statement এর আলাদা আলাদা Syntax আছে এবং আমাদের সেই সব Syntax Follow করতে হবে। যেমনঃ printf(“Hello World!”) কে আমারা printf(Hello World!); লিখতে পারবো না। কারণ printf এর ভিতর Double Quotation printf এর Syntex এর অংশ।
 
-# Bracket: Programming এ 1st, 2nd ও 3rd Bracket এর অন্য নাম আছে। 1st Bracket () কে Programming এ Parentheses বলা হয়ে থাকে। এটি সাধারণত Function এ ব্যবহার করা হয়। আমাদের Hello World! Program এ printf function এ এটি ব্যবহার করা হয়েছে। 2nd Bracket {} কে Curly Braces বলা হয়ে থাকে। এটি Code এর Block বানানোর জন্য ব্যবহার করা হয়ে থাকে। আমাদের Hello World! Program এ Curly Braces দিয়ে main() function টির Block তৈরি করেছে। এখানে { হল Open Brace এবং } হল Close Brace। 3rd Bracket [] কে Square Bracket বলা হয়ে থাকে এটি Array এর Location Indicate করার জন্য ব্যবহার করা হয়ে থাকে। এটির ব্যবহার আমরা Array শেখার সময় দেখবো।
+# Bracket: 
+Programming এ 1st, 2nd ও 3rd Bracket এর অন্য নাম আছে। 1st Bracket () কে Programming এ Parentheses বলা হয়ে থাকে। এটি সাধারণত Function এ ব্যবহার করা হয়। আমাদের Hello World! Program এ printf function এ এটি ব্যবহার করা হয়েছে। 2nd Bracket {} কে Curly Braces বলা হয়ে থাকে। এটি Code এর Block বানানোর জন্য ব্যবহার করা হয়ে থাকে। আমাদের Hello World! Program এ Curly Braces দিয়ে main() function টির Block তৈরি করেছে। এখানে { হল Open Brace এবং } হল Close Brace। 3rd Bracket [] কে Square Bracket বলা হয়ে থাকে এটি Array এর Location Indicate করার জন্য ব্যবহার করা হয়ে থাকে। এটির ব্যবহার আমরা Array শেখার সময় দেখবো।
 
-# Bug ও Debug: আমাদের Program এ যদি কোন সমস্যা থাকে যার কারণে Program টি Run করছে না বা Run করলেও যা Output দেওয়ার কথা তা দিচ্ছে না তাহলে বুঝতে হবে আমাদের Program এ Bug আছে। Bug মানে আসলে খুদ্র কোন সমস্যা যা Program কে Properly কাজ করতে দিচ্ছে না। Bug খোঁজা এবং দূর করার প্রক্রিয়াকে Debug করা বলে।
+# Bug ও Debug: 
+আমাদের Program এ যদি কোন সমস্যা থাকে যার কারণে Program টি Run করছে না বা Run করলেও যা Output দেওয়ার কথা তা দিচ্ছে না তাহলে বুঝতে হবে আমাদের Program এ Bug আছে। Bug মানে আসলে খুদ্র কোন সমস্যা যা Program কে Properly কাজ করতে দিচ্ছে না। Bug খোঁজা এবং দূর করার প্রক্রিয়াকে Debug করা বলে।
 
-# ERROR: ERROR আর Bug অনেকটা একি জিনিস। Programming এ বিভিন্ন রকমের ERROR আছে। যেমনঃ
+# ERROR:
+ERROR আর Bug অনেকটা একি জিনিস। Programming এ বিভিন্ন রকমের ERROR আছে। যেমনঃ
 
-# Syntax Error: আমাদের Program এর কোন Statement যেভাবে থাকার কথা সেই ভাবে যদি না থাকে তবে Syntax Error দেখায়। যেমনঃ Statement এর শেষে ; (Semicolon) না দিলে।
+# Syntax Error:
+আমাদের Program এর কোন Statement যেভাবে থাকার কথা সেই ভাবে যদি না থাকে তবে Syntax Error দেখায়। যেমনঃ Statement এর শেষে ; (Semicolon) না দিলে।
 
-# Compilation Error: Program যদি Compile না হতে পারে তাহলে তাকে Compilation Error বলে। সাধারণত Syntax Error এর জন্য Compile হতে সমস্যা হয়ে থাকে।
+# Compilation Error: 
+Program যদি Compile না হতে পারে তাহলে তাকে Compilation Error বলে। সাধারণত Syntax Error এর জন্য Compile হতে সমস্যা হয়ে থাকে।
 
-# Run Time Error: Program Run হওয়ার পর যদি Crash করে অর্থাৎ চলতে চলতে থেমে যায় তবে তাকে Run Time Error বলে বিভিন্ন কারণে Run Time Error হয়ে থাকে। যেমনঃ Input নেওয়ার সময় scanf() এ Variable Name এর পূর্বে & না দিলে।
+# Run Time Error: 
+Program Run হওয়ার পর যদি Crash করে অর্থাৎ চলতে চলতে থেমে যায় তবে তাকে Run Time Error বলে বিভিন্ন কারণে Run Time Error হয়ে থাকে। যেমনঃ Input নেওয়ার সময় scanf() এ Variable Name এর পূর্বে & না দিলে।
 
 আপাতত এই জিনিস গুলো জানলেই হবে। আস্তে আস্তে আরো অনেক কিছু শিখতে পারবে আসা করি।
 
