@@ -28,10 +28,10 @@ Saving Window
 ৭. Save হওয়ার পর তুমি এখন Code লেখার জন্য প্রস্তুত। সবাই তার জীবনের প্রথম Program “Hello World” লিখে শুরু করে। তোমরাও তার ব্যতিক্রম করো না। নিচের Code টা লিখে ফেলো। Copy Paste করবে না। নিজে নিজে Type কর। এতে তোমাদের Typing Practice হবে পাশাপাশি Code টা বুঝতেও সুবিধা হবে। Programmer হিসেবে তোমার Typing Speed প্রতিনিয়ত Improve করতে হবে। তাই আমি Mouse যতটা সম্ভব বর্জন করতে বলবো। বেশি বেশি Key Board Short Cut শিখার চেষ্টা করবে।
 
 
-#include &lt;stdio.h&gt;
- 
-int main(){
-    printf(“Hello World”);
+#include<stdio.h>;
+int main()
+{
+    printf("Hello world!");
     return 0;
 }
 
