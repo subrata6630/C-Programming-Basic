@@ -71,7 +71,32 @@ Run Time Error: Program Run হওয়ার পর যদি Crash করে অ
 আপাতত এই জিনিস গুলো জানলেই হবে। আস্তে আস্তে আরো অনেক কিছু শিখতে পারবে আসা করি।
 
 
+# সি শেখার কিছু ওয়েবসাইটঃ
+
+1. http://www.cprogramming.com/
+
+2. http://www.cprogrammingexpert.com/
+
+3. http://www.mycplus.com/category/tutorials/c-programming-tutorials/
+
+4. http://www.eskimo.com/~scs/cclass/notes/top.html
+
+5. http://www.tutorialspoint.com/ansi_c/c_introduction.htm
+
+6. http://www.cs.cf.ac.uk/Dave/C/CE.html
+
+7. http://www.programmingsimplified.com/c-program-examples
+
+8. http://www.ibm.com/developerworks/aix/library/au-hook_duttaC.html
+
+9. http://einstein.drexel.edu/courses/Comp_Phys/General/C_basics/
+
+10. http://www.iu.hio.no/~mark/CTutorial/CTutorial.html
+
+11. http://cprogramminglanguage.net/
+
 # প্রোগ্রামিং প্রতিযোগিতার অংশগ্রহনের জন্য কিছু সাইটঃ
+
 1) https://projecteuler.net/
 
 2) http://www.spoj.com/
