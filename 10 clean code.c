@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 
-// Alim Ul Karim
+// Subrata Deb Nath
 // clean code
 // DRY
 
