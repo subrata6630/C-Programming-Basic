@@ -1,4 +1,4 @@
-# C-Programming-Basic
+# সি প্রোগ্রামিং
 
 সব Programming Language এই কিছু Common জিনিস থাকে যেমনঃ Variable, Data Type, Operator, if-else ইত্যাদি। তাই Programming এর Basic হিসেবে আমরা এই জিনিস গুলোই শিখবো। এই জিনিস গুলো শিখার জন্য আমি C Programming Language এর সাহায্য নিবো। তবে আবারো বলছি যে এই জিনিস গুলো মোটামুটি সব Programming Language এই থাকে। তাই তুমি যদি এই জিনিস গুলো ভালো করে শিখে ফেলো তাহলে ভবিষ্যতে নতুন Programming Language শিখতে সমস্যা হবে না। কারণ তখন এই জিনিস গুলো তোমার নতুন করে শিখা লাগবে না, শুধু ঐ Language এর নতুন বৈশিষ্ট গুলো শিখলেই হবে।
 
@@ -13,39 +13,35 @@
 ৪. Code::Blocks এ তুমি এরকম একটি Window দেখতে পাবেঃ
 
 Code::Blocks Main Window
-Code::Blocks Main Window
+
 ৫. উপরের বাম কোনায় File এ Click করে New থেকে Empty File এ Click করো অথবা Key Board থেকে Short Cut এ Ctrl + Shift + N ও চাপতে পারো।
 
 Creating A File
-Creating A File
+
 ৬. তোমার সামনে এখন একটি খালি Page দেখতে পাচ্ছো। Code লেখার আগে আমরা File টি Save করে নিবো। File এ Click করে Save file দিতে পারো অথবা Key Board থেকে Short Cut এ Ctrl + S ও চাপতে পারো। এবার তোমার কাছে জানতে চাইবে তুমি File টির কি নাম দিতে চাও ও কোথায় রাখতে চাও। যেকোন নাম দিয়ে যেকোন যায়গায় Save করতে পারো। আমাদের C Program এর File Extension হল .c। Save করার সময় নামের সাথে .c না লেখলেও চলবে। Code::Blocks Automatically তাহলে সেটাকে .c হিসেবে Save করে ফেলবে। জিনিসটা এখন বলে দিলাম কারণ C++ শেখার সময় File গুলোকে .cpp Extension এ Save করতে হবে।
 
 Coding Window
-Coding Window
-Saving Window
+
 Saving Window
 ৭. Save হওয়ার পর তুমি এখন Code লেখার জন্য প্রস্তুত। সবাই তার জীবনের প্রথম Program “Hello World” লিখে শুরু করে। তোমরাও তার ব্যতিক্রম করো না। নিচের Code টা লিখে ফেলো। Copy Paste করবে না। নিজে নিজে Type কর। এতে তোমাদের Typing Practice হবে পাশাপাশি Code টা বুঝতেও সুবিধা হবে। Programmer হিসেবে তোমার Typing Speed প্রতিনিয়ত Improve করতে হবে। তাই আমি Mouse যতটা সম্ভব বর্জন করতে বলবো। বেশি বেশি Key Board Short Cut শিখার চেষ্টা করবে।
 
-1
-2
-3
-4
-5
-6
+
 #include &lt;stdio.h&gt;
  
 int main(){
     printf(“Hello World”);
     return 0;
 }
+
+
 ৮. লেখা হয়ে গেলে এবার Run করার জন্য উপরে Build এ Click করে Build & Run Click কর অথবা Key Board Short Cut: F9।
 
 Build and Run
-Build and Run
+
 ৯. Run করলে নিচের মত Window দেখতে পাবেঃ
 
 Hello World!
-Hello World!
+
 এটি হল তোমার Output Window। তুমি এখন থেকে যত C Program করবে সবগুলোর Output এখানেই দেখতে পাবে।
 
 তুমি তোমার জীবনের প্রথম Program টি Run করে ফেললে। এখন Programming শিখার আগে তোমাকে কিছু Programming Terms এর সাথে পরিচিত হতে হবে। নিচে সংক্ষেপে আলোচনা করলামঃ
